@@ -1,0 +1,9 @@
+package:com.blackview.ai.imagex
+package:com.blackview.dokegamecenter
+package:com.blackview.ai.doki
+package:com.blackview.surfline
+package:com.blackview.ai.vidgen
+package:com.blackview.ai.soundle
+package:cn.wps.moffice_eng
+package:com.blackview.artorial.client
+package:com.sparktube

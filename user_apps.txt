@@ -1,0 +1,9 @@
+package:/system/preloadapp/DKDoki/DKDoki.apk=com.blackview.ai.doki versionCode:14 uid:10254
+package:/system/preloadapp/DKSoundle/DKSoundle.apk=com.blackview.ai.soundle versionCode:14 uid:10257
+package:/system/preloadapp/DKImageX/DKImageX.apk=com.blackview.ai.imagex versionCode:14 uid:10252
+package:/system/preloadapp/DKBrowser/DKBrowser.apk=com.blackview.surfline versionCode:2264 uid:10250
+package:/system/preloadapp/DKThirdGameCenter/DKThirdGameCenter.apk=com.blackview.dokegamecenter versionCode:46 uid:10253
+package:/system/preloadapp/DKDramango/DKDramango.apk=com.sparktube versionCode:204 uid:10251
+package:/system/preloadapp/wps/wps.apk=cn.wps.moffice_eng versionCode:1495 uid:10258
+package:/system/preloadapp/DKVidgen/DKVidgen.apk=com.blackview.ai.vidgen versionCode:14 uid:10256
+package:/system/preloadapp/SmartArt/SmartArt.apk=com.blackview.artorial.client versionCode:50032 uid:10255
