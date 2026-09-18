@@ -1,0 +1,62 @@
+Вот категории пакетов из вашего списка, которые чаще всего дают ощутимый выигрыш по автономности — фоновые AI/аналитические сервисы, дублирующиеся приложения и телеметрия. Разделил по степени риска.
+
+Безопасно отключать (pm disable-user), почти не влияют на систему
+
+AI-фичи Blackview (генерация изображений/видео, часто крутят фон):
+
+com.blackview.ai.imagex — DKImageX
+com.blackview.ai.doki — DKDoki
+com.blackview.ai.vidgen — DKVidgen
+com.blackview.ai.soundle — DKSoundle
+com.blackview.artorial.client — SmartArt
+
+Google-сервисы, которые редко нужны и любят просыпаться:
+
+com.google.android.apps.tachyon — Meet
+com.google.android.apps.turbo — Turbo (Device Health/адаптивная зарядка, но часто лишняя)
+com.google.android.apps.wellbeing — Digital Wellbeing
+com.google.android.apps.adm — Find My Device (если не нужен)
+com.google.android.gms.supervision — Family Link
+com.google.ambient.streaming — CrossDeviceServices (Continuity)
+com.google.android.apps.youtube.music — YT Music
+com.google.android.apps.nbu.files — Files by Google
+com.google.android.printservice.recommendation
+com.google.android.hotspot2.osulogin
+com.google.android.configupdater
+
+Blackview системный мусор:
+
+com.blackview.dokegamecenter — игровой центр
+com.blackview.themepicker, com.blackview.theme.config — темы (не удаляйте overlay-сами темы, только сервис выбора)
+com.blackview.searchcenter — DKSearchCenter
+com.blackview.appsedge — AppsEdge
+com.blackview.userfeedback — DKFeedback
+com.blackview.commuservice — DKOnlineLog (телеметрия!)
+com.blackview.cplog — DKCopyLog (тоже логирование)
+com.blackview.gamemode — если не играете
+com.sparktube — DKDramango (видео-приложение)
+cn.wps.moffice_eng — WPS Office, если не пользуетесь
+
+Сервисы диагностики/логов Unisoc/Spreadtrum (много фоновой активности):
+
+com.sprd.logmanager — LogManager
+com.sprd.validationtools — ValidationTools
+com.android.devicediagnostics — DeviceDiagnostics
+com.sprd.engineermode — EngineerMode
+Осторожно — можно сломать функциональность, но реально снижают расход
+com.google.android.as — Android System Intelligence (Live Caption, автоответы) — жрёт заметно, но некоторым нужен
+com.google.android.as.oss — Private Compute Services, идёт в паре с предыдущим
+com.google.android.gms.location.history — история местоположений Google
+com.blackview.frozenapp — сам менеджер заморозки приложений (можно оставить, полезен)
+com.blackview.powersavemode / com.sprd.powersavemodelauncher — это сами инструменты энергосбережения, не трогайте
+Не трогать вообще
+
+Всё, что содержит com.android.providers.*, com.google.android.gms (сам core), com.google.android.gsf, NetworkStack, Telephony, TeleService, Bluetooth, SettingsProvider, PackageInstaller, com.android.vending (Play Store) — отключение сломает связь, обновления или сами настройки.
+
+Команда для отключения (через adb или Shizuku, без root):
+
+pm disable-user --user 0 <package.name>
+
+Обратно включить: pm enable <package.name>
+
+Хотите, чтобы я собрал это в готовый bash-скрипт с adb-командами для всего списка выше?
