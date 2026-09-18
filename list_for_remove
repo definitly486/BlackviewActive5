@@ -36,6 +36,7 @@ com.blackview.filetrans
 com.blackview.commuservice
 com.blackview.cplog
 com.blackview.dokegamecenter
+com.blackview.helper
 com.google.android.googlequicksearchbox
 com.google.android.overlay.gmsconfig.searchlauncherqs
 com.google.android.overlay.gmsconfig.Velvet
@@ -44,5 +45,11 @@ com.google.android.printservice.recommendation
 com.google.android.hotspot2.osulogin
 com.google.android.configupdater
 com.google.android.gms.supervision
+com.google.android.as
+com.google.android.as.oss
+com.sprd.logmanager
+com.sprd.validationtools
+com.android.devicediagnostics
+com.sprd.engineermode
 
 
