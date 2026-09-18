@@ -33,6 +33,8 @@ com.blackview.userfeedback
 com.blackview.gamemode
 com.blackview.bvworkspace
 com.blackview.filetrans
-
+com.google.android.googlequicksearchbox
+com.google.android.overlay.gmsconfig.searchlauncherqs
+com.google.android.overlay.gmsconfig.Velvet
 
 
