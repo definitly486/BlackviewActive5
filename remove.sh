@@ -36,7 +36,7 @@ com.blackview.frozenapp
 com.blackview.tool
 com.blackview.powersavemode
 com.google.android.youtube
-com.google.android.youtube.music
+com.google.android.apps.youtube.music
 com.google.android.videos
 com.google.android.apps.docs
 com.google.android.apps.photos
