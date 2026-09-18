@@ -18,6 +18,8 @@ com.google.android.gm
 com.google.android.apps.maps
 com.google.android.apps.adm
 com.google.android.apps.safetyhub
+com.google.android.apps.bard
+com.android.soundrecorder
 com.blackview.frozenapp
 com.blackview.call.recorder
 com.blackview.easytrans
@@ -30,4 +32,7 @@ com.blackview.useguide
 com.blackview.userfeedback
 com.blackview.gamemode
 com.blackview.bvworkspace
+com.blackview.filetrans
+
+
 
