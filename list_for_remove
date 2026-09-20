@@ -91,4 +91,7 @@ com.sprd.omacp
 com.sprd.linkturbo
 com.tencent.soter.soterserver
 org.ifaa.aidl.manager
-
+com.blackview.applock
+com.blackview.app.cloudfolder
+com.blackview.smscode
+com.blackview.themepicker
