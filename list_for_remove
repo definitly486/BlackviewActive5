@@ -95,3 +95,15 @@ com.blackview.applock
 com.blackview.app.cloudfolder
 com.blackview.smscode
 com.blackview.themepicker
+com.android.devicelockcontroller
+com.android.microdroid.empty_payload
+com.android.compos.payload
+com.android.virtualmachine.res
+com.android.wallpaperbackup
+com.android.sharedstoragebackup
+com.android.localtransport
+com.android.backupconfirm
+com.android.stk
+com.android.bluetoothmidiservice
+com.android.dynsystem
+com.android.soundpicker
