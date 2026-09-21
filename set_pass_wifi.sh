@@ -1,0 +1,1 @@
+adb shell cmd wifi connect-network "HUAWEI-B315-AFCA" wpa2 "HR63B1DMTJ4"
