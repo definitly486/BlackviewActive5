@@ -95,7 +95,7 @@ com.blackview.applock
 com.blackview.app.cloudfolder
 com.blackview.smscode
 com.blackview.themepicker
-#com.android.devicelockcontroller
+com.android.devicelockcontroller
 com.android.microdroid.empty_payload
 com.android.compos.payload
 com.android.virtualmachine.res
@@ -107,3 +107,7 @@ com.android.stk
 com.android.bluetoothmidiservice
 com.android.dynsystem
 com.android.soundpicker
+com.blackview.apkupgrade
+com.android.gallery3d
+com.google.android.health.connect.backuprestor
+com.google.android.healthconnect.controller
