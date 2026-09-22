@@ -118,3 +118,5 @@ com.android.credentialmanager
 com.google.android.apps.messaging
 com.google.android.dialer
 com.android.chrome
+com.google.android.setupwizard
+com.google.android.calendar
