@@ -3,7 +3,6 @@
 for package in \
     video.player.videoplayer \
     org.dslul.openboard.inputmethod.latin \
-    ru.yandex.yandexmaps \
     com.deniscerri.ytdl \
     org.cromite.cromite \
     com.ghisler.android.TotalCommander \
@@ -19,11 +18,14 @@ for package in \
     com.brouken.player \
     org.schabi.newpipe
 do
-    echo "Blocking background: $package"
-        adb shell pm revoke "$package" android.permission.POST_NOTIFICATIONS
-        adb shell pm set-permission-flags "$package" android.permission.POST_NOTIFICATIONS user-set user-fixed
-    adb shell cmd appops set "$package" RUN_IN_BACKGROUND ignore
-    adb shell cmd appops set "$package" RUN_ANY_IN_BACKGROUND ignore
+    echo "Blocking location: $package"
+
+    if adb shell pm path "$package" >/dev/null 2>&1; then
+        adb shell cmd appops set "$package" FINE_LOCATION ignore
+        adb shell cmd appops set "$package" COARSE_LOCATION ignore
+    else
+        echo "  Package not installed, skipping."
+    fi
 done
 
 echo "Done."
