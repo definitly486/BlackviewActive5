@@ -123,3 +123,6 @@ com.google.android.calendar
 com.google.android.apps.nbu.files
 com.blackview.systemmanager
 com.blackview.radioservice
+com.unisoc.tui 
+com.google.android.tag
+com.blackview.powersavemode
