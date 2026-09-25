@@ -133,9 +133,9 @@ com.blackview.wallpaperpicker
 com.google.android.apps.carrier.carrierwifi
 #com.google.android.sdksandbox
 #com.google.android.uwb.resources
-#com.google.android.cellbroadcastreceiver
-#com.android.cellbroadcastreceiver
-#com.android.cellbroadcast.overlay
+com.google.android.cellbroadcastreceiver
+com.android.cellbroadcastreceiver
+com.android.cellbroadcast.overlay
 com.android.launcher3.overlay.wallpaper_picker
 com.blackview.theme.config
 com.blackview.wallpaperpicker.overlay
