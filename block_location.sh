@@ -1,7 +1,6 @@
 #!/bin/sh
 
 for package in \
-    video.player.videoplayer \
     org.dslul.openboard.inputmethod.latin \
     com.deniscerri.ytdl \
     org.cromite.cromite \
@@ -17,7 +16,8 @@ for package in \
     net.sourceforge.opencamera \
     com.brouken.player \
     org.schabi.newpipe \
-    org.sufficientlysecure.keychain
+    org.sufficientlysecure.keychain \
+    com.blackview.launcher
 do
     echo "Blocking location: $package"
 

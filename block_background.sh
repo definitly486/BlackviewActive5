@@ -17,7 +17,8 @@ for package in \
     net.sourceforge.opencamera \
     com.brouken.player \
     org.schabi.newpipe \
-    org.sufficientlysecure.keychain
+    org.sufficientlysecure.keychain \
+    com.blackview.launcher
 do
     echo "Blocking background: $package"
         adb shell pm revoke "$package" android.permission.POST_NOTIFICATIONS
