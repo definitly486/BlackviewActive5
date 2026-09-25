@@ -1,7 +1,6 @@
 #!/bin/sh
 
 for package in \
-    video.player.videoplayer \
     org.dslul.openboard.inputmethod.latin \
     ru.yandex.yandexmaps \
     com.deniscerri.ytdl \
@@ -18,7 +17,7 @@ for package in \
     net.sourceforge.opencamera \
     com.brouken.player \
     org.schabi.newpipe \
-    com.android.keychain
+    org.sufficientlysecure.keychain
 do
     echo "Blocking background: $package"
         adb shell pm revoke "$package" android.permission.POST_NOTIFICATIONS

@@ -17,7 +17,7 @@ for package in \
     net.sourceforge.opencamera \
     com.brouken.player \
     org.schabi.newpipe \
-    com.android.keychain
+    org.sufficientlysecure.keychain
 do
     echo "Blocking location: $package"
 
