@@ -17,7 +17,8 @@ for package in \
     dev.imranr.obtainium.fdroid \
     net.sourceforge.opencamera \
     com.brouken.player \
-    org.schabi.newpipe
+    org.schabi.newpipe \
+    com.android.keychain
 do
     echo "Blocking background: $package"
         adb shell pm revoke "$package" android.permission.POST_NOTIFICATIONS
