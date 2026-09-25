@@ -28,3 +28,6 @@ do
 done
 
 echo "Done."
+
+adb shell ime enable org.dslul.openboard.inputmethod.latin/.LatinIME
+adb shell ime set    org.dslul.openboard.inputmethod.latin/.LatinIME
