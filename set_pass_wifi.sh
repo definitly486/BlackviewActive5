@@ -9,3 +9,5 @@ adb shell pm disable-user --user 0 com.android.cellbroadcastreceiver
 adb shell pm disable-user --user 0 com.android.cellbroadcast.overlay
 adb shell settings put global auto_time_zone 0
 adb shell cmd alarm set-timezone Europe/Moscow
+adb shell ime enable org.dslul.openboard.inputmethod.latin/.LatinIME
+adb shell ime set    org.dslul.openboard.inputmethod.latin/.LatinIME
