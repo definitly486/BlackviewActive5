@@ -60,7 +60,6 @@ com.google.android.marvin.talkback
 com.google.android.accessibility.switchaccess
 com.android.systemui.accessibility.accessibilitymenu
 com.google.android.tts
-com.android.devicelockcontroller
 com.android.DeviceAsWebcam
 com.google.android.feedback
 com.google.android.partnersetup
@@ -109,7 +108,6 @@ com.android.dynsystem
 com.android.soundpicker
 com.blackview.apkupgrade
 com.android.gallery3d
-com.google.android.health.connect.backuprestor
 com.google.android.healthconnect.controller
 com.google.android.gsf
 com.google.android.health.connect.backuprestore 
@@ -131,8 +129,6 @@ com.google.android.contacts
 com.android.nfc
 com.blackview.wallpaperpicker
 com.google.android.apps.carrier.carrierwifi
-#com.google.android.sdksandbox
-#com.google.android.uwb.resources
 com.google.android.cellbroadcastreceiver
 com.android.cellbroadcastreceiver
 com.android.cellbroadcast.overlay
