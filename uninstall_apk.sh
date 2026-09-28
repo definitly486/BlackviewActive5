@@ -18,7 +18,7 @@ while IFS= read -r i <&3; do
     result=$(adb shell pm uninstall --user 0 "$i" 2>&1)
     echo "$result"
 
-    sleep 1
+    sleep 0.1
 done
 
 exec 3<&-
