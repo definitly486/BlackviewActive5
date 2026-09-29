@@ -17,7 +17,8 @@ for package in \
     com.brouken.player \
     org.schabi.newpipe \
     org.sufficientlysecure.keychain \
-    com.blackview.launcher
+    com.blackview.launcher \
+    is.xyz.mpv
 do
     echo "Blocking location: $package"
 
